@@ -22,29 +22,6 @@
     --transition-speed: 0.3s;
 }
 
-/* Dark mode color scheme */
-@media (prefers-color-scheme: dark) {
-    :root {
-        /* Dark mode colors */
-        --primary-color: #203041;
-        --primary-color-2: #247ed9;
-        --secondary-color: #0d8d71;
-        --accent-color: #e67e22;
-        --text-color: #e5e7eb;
-        --light-text: #fff;
-        --dark-text: #e5e7eb;
-       
-        /* Dark mode background colors */
-        --bg-color: #121212;
-        --bg-secondary: #1e1e1e;
-        --bg-card: #252525;
-       
-        /* Dark mode border and shadow colors */
-        --border-color: #2d2d2d;
-        --shadow-color: rgba(0, 0, 0, 0.3);
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
